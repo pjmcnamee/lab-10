@@ -1,0 +1,163 @@
+
+
+header {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-bottom: 15px solid gray;
+}
+
+header section {
+    width: 400px;
+    display: inline-block;
+}
+
+header section img {
+    float: left;
+    padding: 10px;
+}
+
+header section h1 {
+    font-size: 40px;
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+header section p {
+    margin-bottom: 0px;
+    font-size: 8px;
+}
+
+header ul {
+    float: right;
+    padding-top: 25px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li#pintrest {
+    margin-right: 10px;
+}
+
+main {
+    clear: both;
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 35px;
+}
+
+main h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+main div {
+    padding-bottom: 20px;
+    width: 400px;
+    float: left;
+}
+
+main div p {
+    font-size: 10px;
+}
+
+main ul {
+    float: right;
+}
+
+main ul li {
+    display: inline-block;
+    padding-top: 35px;
+    font-size: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+main p {
+    padding-bottom: 15px;
+    text-indent: 5%;
+    font-size: 16px;
+}
+
+#recipe {
+    background-image: url(img/list-bg.png);
+    background-repeat: no-repeat;
+    width: 960px;
+}
+
+#recipe ul {
+    display: inline-block;
+}
+#recipe ul li {
+    display: block;
+    padding-right: 250px;
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+.crossout {
+    text-decoration: line-through;
+}
+
+main section {
+    clear: both;
+    margin-top: 15px;
+    border-top: 15px solid grey;
+}
+
+main section img {
+    width: 45px;
+    float: left;
+}
+
+main section h3 {
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+}
+
+main section p {
+    position: relative;
+    right: 27px;
+}
+
+button {
+    float: right;
+    background:  red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+button:hover {
+    background: turquoise;
+
+}
+
+footer {
+    clear: both;
+    width: 960;
+    margin: 0px auto;
+}
+
+footer img{
+    position: relative;
+    left: 48%;
+    padding-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+}
